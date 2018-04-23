@@ -42,6 +42,6 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 5000
+            timeoutInMilliseconds: 50000
 cron:
   black-ip: 0 0/5 * * * ?
