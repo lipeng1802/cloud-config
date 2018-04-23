@@ -32,4 +32,4 @@ security:
       prefer-token-info: false
 elasticsearch:
   clusterName: elasticsearch
-  clusterNodes: 127.0.01:9300
+  clusterNodes: 127.0.0.1:9300
