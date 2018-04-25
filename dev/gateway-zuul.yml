@@ -29,8 +29,8 @@ zuul:
     sms:
       path: /api-n/**
       serviceId: notification-center
-    safe:
-      path: /safe/**
+    api-s:
+      path: /api-s/**
       serviceId: manage-safe      
   host:
     connect-timeout-millis: 60000
